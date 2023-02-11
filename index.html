@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body{
+            background: rgb(87,31,124);
+            background: linear-gradient(98deg, rgba(87,31,124,1) 10%, rgb(89, 13, 124) 51%, rgb(13, 65, 99) 100%);
+            font-family: sans-serif;
+            color: aliceblue;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            padding: 10%;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+      <h1>Enter city name to get weather data</h1>
+    <form action="/" method="post">
+        <label for="cityInput">City Name:</label>
+         <input id="cityInput" type="text" name="cityName" >
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
